@@ -1,0 +1,23 @@
+
+
+
+* Klaveye ve mouse ile yapabildigin herseyi yapar.
+
+ MOUSE İÇİN ACTION METHODLARI
+ moveToElement => mouse ile üzerine gidilen elementin acılan menu yapar
+ click()
+ clickandHold();
+
+
+KLAVYE ICIN ACTION METHODLARI
+
+A- tek seferlik basma isi  =>> action.senKeys()
+B- Istedigiimiz tusa istedigimiz surece basili tutma ==> action.keyDown()  actions.keyUp()
+
+ACTION CLASS METHOD KULLANIMI
+1- ACTİON CLASSINDAN OBJE URETELIM
+     Action actions=new Actions(driver);
+2- ACTIONS OBJESI ILE KULLANACAGIMIZ WEBELEMENTLERİ LOCATE EDİN
+3- ISTEDIGIMIZ  METHODLARI ACTIONS OBJESI ILE KULLANALIM
+4-METHODLAR BITINCE .perform yazmalıyız yazmazsak calısmaz
+
