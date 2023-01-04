@@ -37,7 +37,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.DropdownMenuProje1">
+  <component name="RunManager" selected="JUnit.kiwiTest.kiwiTesst">
     <configuration name="ActionClasses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumOrnekProjeler" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,32 +65,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JUnitAssertionProje2.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="kiwiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumOrnekProjeler" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JUnitAssertionProje2" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kiwiProje.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kiwiProje" />
+      <option name="MAIN_CLASS_NAME" value="kiwiProje.kiwiTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JUnitAssertıonProje1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="kiwiTest.kiwiTesst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumOrnekProjeler" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JUnitAssertıonProje1" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kiwiProje.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kiwiProje" />
+      <option name="MAIN_CLASS_NAME" value="kiwiProje.kiwiTest" />
+      <option name="METHOD_NAME" value="kiwiTesst" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.kiwiTest.kiwiTesst" />
+        <item itemvalue="JUnit.kiwiTest" />
         <item itemvalue="JUnit.DropdownMenuProje1" />
         <item itemvalue="JUnit.ActionClasses" />
         <item itemvalue="JUnit.JUnitAssertionProje2" />
-        <item itemvalue="JUnit.JUnitAssertionProje2.test01" />
-        <item itemvalue="JUnit.JUnitAssertıonProje1" />
       </list>
     </recent_temporary>
   </component>
@@ -115,5 +127,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/kiwiProje/kiwiTest.java</url>
+          <line>49</line>
+          <properties class="kiwiProje.kiwiTest" method="kiwiTesst">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
