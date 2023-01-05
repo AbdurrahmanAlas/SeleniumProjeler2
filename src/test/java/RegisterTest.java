@@ -2,6 +2,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -57,6 +58,7 @@ public class RegisterTest {
 
     }
 
+    @Test
     public  void negative_scenario(){
 
         //name kısmına as jd dg gibi kısa kelimeler yazilmasin
@@ -70,8 +72,21 @@ public class RegisterTest {
 
         WebElement newUserText=driver.findElement(By.xpath("//*[text()='New User Signup!']"));
 
+        Assert.assertTrue(newUserText.isDisplayed());
 
 
+
+    }
+
+    @Test
+    public void olumsuzSeneryo2(){
+        WebElement nameBox= driver.findElement(By.xpath("//input[@type='text']"));
+        nameBox.sendKeys("nevzat");
+        WebElement emailBox=driver.findElement(By.xpath("(//input[@type='email'])[2]"));
+        emailBox.sendKeys("nevzat@gmailcom");
+        driver.findElement(By.xpath("(//button[@type='submit'])[2]")).click();
+        WebElement enterAccountText= driver.findElement(By.xpath("//*[text()='Enter Account Information']"));
+        Assert.assertFalse(enterAccountText.isDisplayed());
     }
 
 
