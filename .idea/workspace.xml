@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fba6a92f-d50d-4352-829c-77b93377bb43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,42 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C04_Put_ResponseBilgileriAssertion.put01">
-    <configuration name="C01_Get_ApiSorgulama.get01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumOrnekProjeler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API_CALISMALARI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
-      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C01_Get_ApiSorgulama" />
-      <option name="METHOD_NAME" value="get01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_Get_ResponseBilgilerAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumOrnekProjeler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API_CALISMALARI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
-      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C02_Get_ResponseBilgilerAssertion" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C06_Post_ResponseBodyTesti.post01">
     <configuration name="C02_Get_ResponseBilgilerAssertion.get01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumOrnekProjeler" />
       <extension name="coverage">
@@ -130,13 +94,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C05_Get_ResponseBodyTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumOrnekProjeler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_CALISMALARI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
+      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C05_Get_ResponseBodyTesti" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C06_Post_ResponseBodyTesti.post01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumOrnekProjeler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_CALISMALARI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
+      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C06_Post_ResponseBodyTesti" />
+      <option name="METHOD_NAME" value="post01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C06_Post_ResponseBodyTesti.post01" />
+        <item itemvalue="TestNG.C05_Get_ResponseBodyTesti" />
         <item itemvalue="TestNG.C04_Put_ResponseBilgileriAssertion.put01" />
         <item itemvalue="TestNG.C03_JsonObjesiOlusturma.jsonObje02" />
         <item itemvalue="TestNG.C02_Get_ResponseBilgilerAssertion.get01" />
-        <item itemvalue="TestNG.C02_Get_ResponseBilgilerAssertion" />
-        <item itemvalue="TestNG.C01_Get_ApiSorgulama.get01" />
       </list>
     </recent_temporary>
   </component>
