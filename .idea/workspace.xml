@@ -39,78 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C06_Post_ResponseBodyTesti.post01">
-    <configuration name="C02_Get_ResponseBilgilerAssertion.get01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumOrnekProjeler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API_CALISMALARI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
-      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C02_Get_ResponseBilgilerAssertion" />
-      <option name="METHOD_NAME" value="get01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_JsonObjesiOlusturma.jsonObje02" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumOrnekProjeler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API_CALISMALARI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
-      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C03_JsonObjesiOlusturma" />
-      <option name="METHOD_NAME" value="jsonObje02" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_Put_ResponseBilgileriAssertion.put01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumOrnekProjeler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API_CALISMALARI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
-      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C04_Put_ResponseBilgileriAssertion" />
-      <option name="METHOD_NAME" value="put01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C05_Get_ResponseBodyTesti" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumOrnekProjeler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API_CALISMALARI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
-      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C05_Get_ResponseBodyTesti" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C09_Post_JsonPathIleBodyTesti.post01">
     <configuration name="C06_Post_ResponseBodyTesti.post01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumOrnekProjeler" />
       <extension name="coverage">
@@ -129,13 +58,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C07_Get_BodyTekrarlardanKurtulma" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumOrnekProjeler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_CALISMALARI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
+      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C07_Get_BodyTekrarlardanKurtulma" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C07_Get_BodyTekrarlardanKurtulma.get01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumOrnekProjeler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_CALISMALARI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
+      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C07_Get_BodyTekrarlardanKurtulma" />
+      <option name="METHOD_NAME" value="get01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C08_JSONObjectVerileriCagirma.JsonPath01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumOrnekProjeler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_CALISMALARI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
+      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C08_JSONObjectVerileriCagirma" />
+      <option name="METHOD_NAME" value="JsonPath01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C09_Post_JsonPathIleBodyTesti.post01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumOrnekProjeler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_CALISMALARI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
+      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C09_Post_JsonPathIleBodyTesti" />
+      <option name="METHOD_NAME" value="post01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C09_Post_JsonPathIleBodyTesti.post01" />
+        <item itemvalue="TestNG.C08_JSONObjectVerileriCagirma.JsonPath01" />
+        <item itemvalue="TestNG.C07_Get_BodyTekrarlardanKurtulma.get01" />
+        <item itemvalue="TestNG.C07_Get_BodyTekrarlardanKurtulma" />
         <item itemvalue="TestNG.C06_Post_ResponseBodyTesti.post01" />
-        <item itemvalue="TestNG.C05_Get_ResponseBodyTesti" />
-        <item itemvalue="TestNG.C04_Put_ResponseBilgileriAssertion.put01" />
-        <item itemvalue="TestNG.C03_JsonObjesiOlusturma.jsonObje02" />
-        <item itemvalue="TestNG.C02_Get_ResponseBilgilerAssertion.get01" />
       </list>
     </recent_temporary>
   </component>
