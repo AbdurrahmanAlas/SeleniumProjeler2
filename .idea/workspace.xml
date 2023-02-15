@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fba6a92f-d50d-4352-829c-77b93377bb43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JUBchAQyZKi8wThbcSqfioLZVj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,72 +40,103 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.kiwiTest.kiwiTesst">
-    <configuration name="ActionClasses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumOrnekProjeler" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ActionClasses" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DropdownMenuProje1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumOrnekProjeler" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DropdownMenuProje1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JUnitAssertionProje2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumOrnekProjeler" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JUnitAssertionProje2" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="kiwiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C04_Put_ResponseBilgileriAssertion.put01">
+    <configuration name="C01_Get_ApiSorgulama.get01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumOrnekProjeler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kiwiProje.*" />
+          <option name="PATTERN" value="API_CALISMALARI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kiwiProje" />
-      <option name="MAIN_CLASS_NAME" value="kiwiProje.kiwiTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
+      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C01_Get_ApiSorgulama" />
+      <option name="METHOD_NAME" value="get01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kiwiTest.kiwiTesst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_Get_ResponseBilgilerAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumOrnekProjeler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kiwiProje.*" />
+          <option name="PATTERN" value="API_CALISMALARI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kiwiProje" />
-      <option name="MAIN_CLASS_NAME" value="kiwiProje.kiwiTest" />
-      <option name="METHOD_NAME" value="kiwiTesst" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
+      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C02_Get_ResponseBilgilerAssertion" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_Get_ResponseBilgilerAssertion.get01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumOrnekProjeler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_CALISMALARI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
+      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C02_Get_ResponseBilgilerAssertion" />
+      <option name="METHOD_NAME" value="get01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_JsonObjesiOlusturma.jsonObje02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumOrnekProjeler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_CALISMALARI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
+      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C03_JsonObjesiOlusturma" />
+      <option name="METHOD_NAME" value="jsonObje02" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_Put_ResponseBilgileriAssertion.put01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumOrnekProjeler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_CALISMALARI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
+      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C04_Put_ResponseBilgileriAssertion" />
+      <option name="METHOD_NAME" value="put01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.kiwiTest.kiwiTesst" />
-        <item itemvalue="JUnit.kiwiTest" />
-        <item itemvalue="JUnit.DropdownMenuProje1" />
-        <item itemvalue="JUnit.ActionClasses" />
-        <item itemvalue="JUnit.JUnitAssertionProje2" />
+        <item itemvalue="TestNG.C04_Put_ResponseBilgileriAssertion.put01" />
+        <item itemvalue="TestNG.C03_JsonObjesiOlusturma.jsonObje02" />
+        <item itemvalue="TestNG.C02_Get_ResponseBilgilerAssertion.get01" />
+        <item itemvalue="TestNG.C02_Get_ResponseBilgilerAssertion" />
+        <item itemvalue="TestNG.C01_Get_ApiSorgulama.get01" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +173,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/API_CALISMALARI/C04_Put_ResponseBilgileriAssertion.java</url>
+          <line>30</line>
+          <properties class="API_CALISMALARI.C04_Put_ResponseBilgileriAssertion" method="put01">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
