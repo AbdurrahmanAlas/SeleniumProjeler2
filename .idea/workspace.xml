@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fba6a92f-d50d-4352-829c-77b93377bb43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseURL/HerokuappBaseurl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseURL/HerokuappBaseurl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/API_CALISMALARI/C16_BaseUrlHerokuapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_CALISMALARI/C16_BaseUrlHerokuapp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
       <recent name="D:\JavaTum\java2021\SeleniumOrnekProjeler\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C16_BaseUrlHerokuapp.get01">
+  <component name="RunManager" selected="TestNG.C17_BaseUrlHerokuappQueryParam.get02">
     <configuration name="C15_BaseUrlJsonPlaceHolder.delete01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumOrnekProjeler" />
       <extension name="coverage">
@@ -78,22 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C15_BaseUrlJsonPlaceHolder.get02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumOrnekProjeler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API_CALISMALARI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
-      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C15_BaseUrlJsonPlaceHolder" />
-      <option name="METHOD_NAME" value="get02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="C16_BaseUrlHerokuapp.get01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumOrnekProjeler" />
       <extension name="coverage">
@@ -110,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C15_BaseUrlJsonPlaceHolder.get02" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C16_BaseUrlHerokuapp.post01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumOrnekProjeler" />
       <extension name="coverage">
         <pattern>
@@ -119,7 +103,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="API_CALISMALARI" />
-      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C15_BaseUrlJsonPlaceHolder" />
+      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C16_BaseUrlHerokuapp" />
+      <option name="METHOD_NAME" value="post01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C17_BaseUrlHerokuappQueryParam.get02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumOrnekProjeler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_CALISMALARI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_CALISMALARI" />
+      <option name="MAIN_CLASS_NAME" value="API_CALISMALARI.C17_BaseUrlHerokuappQueryParam" />
       <option name="METHOD_NAME" value="get02" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C17_BaseUrlHerokuappQueryParam.get02" />
+        <item itemvalue="JUnit.C16_BaseUrlHerokuapp.post01" />
         <item itemvalue="JUnit.C16_BaseUrlHerokuapp.get01" />
         <item itemvalue="JUnit.C15_BaseUrlJsonPlaceHolder.delete01" />
         <item itemvalue="JUnit.C15_BaseUrlJsonPlaceHolder.get01" />
-        <item itemvalue="JUnit.C15_BaseUrlJsonPlaceHolder.get02" />
-        <item itemvalue="TestNG.C15_BaseUrlJsonPlaceHolder.get02" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +180,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/API_CALISMALARI/C17_BaseUrlHerokuappQueryParam.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
