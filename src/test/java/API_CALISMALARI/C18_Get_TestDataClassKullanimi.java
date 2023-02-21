@@ -14,8 +14,7 @@ public class C18_Get_TestDataClassKullanimi extends JsonPlaceHolderBaseUrl {
 
     /*
   https://jsonplaceholder.typicode.com/posts/22 url'ine bir GET
-  request yolladigimizda donen
-   response’in status kodunun 200 ve
+  request yolladigimizda donen response’in status kodunun 200 ve
   response body’sinin asagida verilen ile ayni oldugunu test ediniz
    Response body :
     {
@@ -28,40 +27,32 @@ public class C18_Get_TestDataClassKullanimi extends JsonPlaceHolderBaseUrl {
      */
 
     @Test
-    public  void get01(){
+    public void get01(){
 
-        // 1- URl hazirla
+        // 1 - URL hazirla
 
-        specJsonPlace.pathParams("pp1","posts","pp2",25);
+        specJsonPlace.pathParams("pp1","posts","pp2",28);
 
-        // 2- Expected Data hazirla
+        // 2 - Expected Data hazirla
 
-        TestDataJsonPlaceHolder testDataJsonPlaceHolder=new TestDataJsonPlaceHolder();
+        TestDataJsonPlaceHolder testDataJsonPlaceHolder = new TestDataJsonPlaceHolder();
 
-        JSONObject expData=testDataJsonPlaceHolder.expectedBodyOlusturJSON();
+        JSONObject expData = testDataJsonPlaceHolder.expectedBodyOlusturJSON();
 
+        // 3 - Response'i kaydet
 
+        Response response = given().spec(specJsonPlace).when().get("/{pp1}/{pp2}");
 
-        // 3- Response i kaydet
+        // 4 - Assertion
 
-        Response response=given().
-                spec(specJsonPlace).
-                when().
-                get("/{pp1}/{pp2}");
-
-        // 4- Assertion
-
-        JsonPath resJPath=response.jsonPath();
+        JsonPath resJPath = response.jsonPath();
 
         Assert.assertEquals(testDataJsonPlaceHolder.basariliStatusCode,response.getStatusCode());
         Assert.assertEquals(expData.get("userId"),resJPath.get("userId"));
         Assert.assertEquals(expData.get("id"),resJPath.get("id"));
         Assert.assertEquals(expData.get("title"),resJPath.get("title"));
         Assert.assertEquals(expData.get("body"),resJPath.get("body"));
-
-
-        }
-
+    }
 
 
 
